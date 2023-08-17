@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+</head>
+
+<body>
+    <header>
+        <div class="div-header max-width">
+            <img src="/Assets/Image/Logo.png" alt="Logo" class="logo">
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#services">Tratamentos</a></li>
+                    <li><a href="#">Contatos</a></li>
+                    <li><a href="#">Localização</a></li>
+                    <li><a href="#">Quem somos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="home">
+        <div class="back">
+            <div class="container max-width">
+                <section class="section-left">
+                    <h1 class="section-left__title">Junte-se a nós para um novo sorriso</h1>
+                    <p>Temos os melhores epecialistas focados no seu sorriso. Equipamentos de ultima geração e um
+                        consultorio preparado para te dá o melhor conforto.</p>
+
+                    <div class="query"><a href="#">Agende sua consulta</a></div>
+
+                </section>
+
+                <section class="section-height">
+
+                    <img src="./Assets/Image/dentistaFS.png" alt="Dentista no consultório" class="img">
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <section id="services" class="services" >
+
+        <h1 class="primary-title">Confira os nossos tratamentos</h1>
+
+        <div class="max-width">
+            <div class="swiper">
+                <div class="container swiper-wrapper">
+                    <div class="conatiner-content swiper-slide">
+                        <img src="./Assets/Image/ClinicaGeral.jpg" alt="">
+                        <div class="text-content">
+                            <h2>Clinica geral</h2>
+                            <p>Restauração; Aplicação de flor; Endotia (canal); Extração </p>
+                        </div>
+                    </div>
+                    <div class="conatiner-content swiper-slide">
+                        <img src="./Assets/Image/ortodontia.jpg" alt="">
+                        <div class="text-content">
+                            <h2>Ortodontia</h2>
+                            <p> Dentistas especializados no seu sorriso</p>
+                        </div>
+                    </div>
+                    <div class="conatiner-content swiper-slide">
+                        <img src="./Assets/Image/radiologia.jpg" alt="">
+                        <div class="text-content">
+                            <h2>Radiologia</h2>
+                            <p>Temos o melhor em tecnologia</p>
+                        </div>
+                    </div>
+                    <div class="conatiner-content swiper-slide">
+                        <img src="./Assets/Image/proteses.jpg" alt="">
+                        <div class="text-content">
+                            <h2>Proteses e Implantes</h2>
+                            <p>Proteses confortáveis com materiais mais duravéis</p>
+                        </div>
+                    </div>
+                    <div class="conatiner-content swiper-slide">
+                        <img src="./Assets/Image/estetica.jpg" alt="">
+                        <div class="text-content">
+                            <h2>Tratamentos Estéticos</h2>
+                            <p>Seu sorriso belo e confiante</p>
+                        </div>
+                    </div>
+                    <div class="conatiner-content swiper-slide">
+                        <img src="./Assets/Image/odontopediatria.jpg" alt="">
+                        <div class="text-content">
+                            <h2>Odonto Pediatria</h2>
+                            <p>Clinca adaptada e profinionais capacitados para cuida do sorriso de quem você mais ama</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+     <!--Js Swipper-->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+     <script src="index.js"></script>
+</body>
+
+</html>

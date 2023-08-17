@@ -1,0 +1,78 @@
+main {
+    background: center no-repeat url(/Assets/Image/background.jpg);
+    background-size: cover;
+    scroll-margin-top: 10.5rem;
+}
+
+main .back {
+    padding: 5.3rem 0 0;
+    height: 100%;
+    background: rgba(249, 255, 225, 0.8);
+}
+
+main .container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22rem;
+    margin-bottom: 0;
+}
+
+main .container .section-left {
+   flex: 1;
+    max-width: 65rem;
+    
+}
+
+
+main .container .section-left h1 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 6.5rem;
+    font-weight: bold;
+    color: var(--black-title);
+    line-height: 6rem;
+    margin-bottom: 2rem;
+}
+
+main .container .section-left p {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: var(--gray);
+    margin-bottom: 2rem;
+}
+
+main .container .section-left .query {
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+    border: 2px solid var(--brown);
+}
+
+main .container .section-left .query a {
+    display: inline-block;
+    width: 100%;
+    padding: 2rem;
+    color: var(--brown);
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    transition: .3s  linear;
+}
+
+main .container .section-left .query a:hover {
+    background-color:  var(--brown);
+    color: var(--softgreen);
+}
+
+main .container .section-height {
+    position: relative;
+}
+
+main .container .section-height img {
+    max-width: 35.4rem;
+    position: relative;
+    bottom: -4px;
+    flex: 1;
+}

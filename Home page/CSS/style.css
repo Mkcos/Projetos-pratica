@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Inter:wght@300;400;700&family=Montserrat:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+
+@import url(./variables.css);
+@import url(./globals.css);
+@import url(./Components/header.css);
+@import url(./Components/main.css);
+@import url(./Components/services.css);

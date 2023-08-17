@@ -1,0 +1,44 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: var(--green);
+}
+
+header .div-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 4rem 1rem;
+}
+
+header .div-header .logo {
+    width: 5rem;
+}
+
+header .div-header .navbar ul li{
+    display: inline-block;
+}
+
+header .div-header .navbar ul li:not(:last-of-type) {
+    margin-right: 2rem;
+}
+
+header .div-header .navbar ul li a {
+    padding: 1rem;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    transition: .3s ease;
+    color: var(--softpurple);
+}
+
+header .div-header .navbar ul:hover a {
+    color: rgba(20, 20, 20, 0.2);
+}
+
+header .div-header .navbar ul:hover a:hover {
+    color: var(--softpurple);
+    box-shadow: 0 1px 0 0 currentColor;
+}
